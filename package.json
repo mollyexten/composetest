@@ -1,0 +1,14 @@
+{
+  "name": "composetest",
+  "version": "1.0.0",
+  "description": "Docker and Jenkins and mabl CLI fun times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mablhq/mabl-cli": "^2.57.7"
+  }
+}

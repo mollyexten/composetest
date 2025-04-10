@@ -10,6 +10,9 @@ services:
         - action: sync
           path: .
           target: /code
+  tunnel:
+    build: ./tunnel
+    network_mode: host
   jenkins:
     build:
       context: .

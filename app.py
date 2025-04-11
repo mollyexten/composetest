@@ -21,3 +21,6 @@ def get_hit_count():
 def hello():
     count = get_hit_count()
     return f'Hello from Docker! I have been seen {count} times.\n'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8000, debug=True)  # Added this line
